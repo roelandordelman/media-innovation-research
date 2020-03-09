@@ -8,3 +8,12 @@ Either wihtin or outside a specific LAB, the X-environment provides the opportun
 * Can we use a robot to implement spoken conversational search for children in an audiovisual archive? 
 
 We welcome applications for new research topics. Below you find a number of topics in different areas we are specifically interested in.
+ 
+ <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
